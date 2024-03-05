@@ -18,11 +18,4 @@ class Ultility {
             exit(1)
         }
     }
-
-    // static func isLastElementAnInteger(_ array: [Any]) -> Bool {
-    //     if let lastElement = array.last {
-    //         return lastElement is Int
-    //     }
-    //     return false
-    // }
 }
