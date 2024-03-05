@@ -8,7 +8,10 @@
 
 import Foundation
 
+// Class for utility
 class Ultility {    
+
+    // Exit the program with message
     static func exitProgram(_ message: String, _ isExit: Bool = true) {
         print(message)
         if isExit {
@@ -16,10 +19,10 @@ class Ultility {
         }
     }
 
-    static func isLastElementAnInteger(_ array: [Any]) -> Bool {
-        if let lastElement = array.last {
-            return lastElement is Int
-        }
-        return false
-    }
+    // static func isLastElementAnInteger(_ array: [Any]) -> Bool {
+    //     if let lastElement = array.last {
+    //         return lastElement is Int
+    //     }
+    //     return false
+    // }
 }
